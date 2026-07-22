@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "preserve",
+    "types": ["vite/client"],
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src/vite-env.d.ts",
+    "src/main.ts",
+    "src/App.vue",
+    "src/config/**/*.ts",
+    "src/layouts/**/*.vue",
+    "src/components/**/*.vue",
+    "src/utils/**/*.ts",
+    "src/generated/**/*.ts",
+    "src/views/HomeView.vue",
+    "src/views/QuickStartView.vue",
+    "src/views/EarthCreateView.vue",
+    "src/views/MigrationV2View.vue",
+    "src/views/EarthInstanceView.vue",
+    "src/views/ViewServiceView.vue",
+    "src/views/LayerServiceView.vue",
+    "src/views/ControlServiceView.vue",
+    "src/views/ExportedTypesView.vue",
+    "src/views/elements/**/*.vue",
+    "src/views/interactions/**/*.vue",
+    "src/views/presentation/**/*.vue",
+    "src/views/services/**/*.vue",
+    "src/views/reference/**/*.vue",
+    "src/examples/EarthCreateDemo.vue",
+    "src/examples/ElementCoordinateStorageDemo.vue",
+    "src/examples/EarthInstanceDemo.vue",
+    "src/examples/ViewServiceDemo.vue",
+    "src/examples/LayerServiceDemo.vue",
+    "src/examples/ControlServiceDemo.vue",
+    "src/examples/elements/**/*.vue",
+    "src/examples/interactions/**/*.vue",
+    "src/examples/presentation/**/*.vue",
+    "src/examples/services/**/*.vue",
+    "src/examples/reference/**/*.vue"
+  ]
+}
